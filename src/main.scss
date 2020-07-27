@@ -1,0 +1,29 @@
+// body {
+//   height: 100%;
+// }
+// reg-form {
+//   width: 100%;
+//   margin: auto;
+//   max-width: 400px;
+//   padding: 15px;
+// }
+
+//Custom utilities
+$utilities: (
+  "custom-margin": (
+    property: margin-bottom,
+    class: mb,
+    values: (
+      0: 0,
+      1: 1rem,
+      2: 2rem,
+      3: 3rem,
+    ),
+  ),
+);
+
+// Override default variables
+$primary: #000000;
+$border-radius: 15px;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
