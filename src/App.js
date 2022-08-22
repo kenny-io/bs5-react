@@ -3,56 +3,56 @@ import React from "react";
 function App() {
   return (
     <div className="container mt-3">
-      <h2 class="text-center">Register</h2>
+      <h2 className="text-center">Register</h2>
 
       <div>
-        <div class="mb-1">
-          <label for="email" class="form-label">
+        <div className="mb-1">
+          <label htmlFor="email" className="form-label">
             Email address
           </label>
           <input
             type="email"
-            class="form-control"
+            className="form-control"
             id="email"
             placeholder="name@example.com"
           />
         </div>
-        <div class="mb-1">
-          <label for="password" class="form-label">
+        <div className="mb-1">
+          <label htmlFor="password" className="form-label">
             Password
           </label>
           <input
             type="password"
-            class="form-control"
+            className="form-control"
             id="password"
             placeholder="Password"
           />
         </div>
-        <div class="mb-1">
-          <label for="bio" class="form-label">
+        <div className="mb-1">
+          <label htmlFor="bio" className="form-label">
             Tell us about you
           </label>
-          <textarea class="form-control" id="bio" rows="3"></textarea>
+          <textarea className="form-control" id="bio" rows="3"></textarea>
         </div>
-        <div class="col-12">
-          <button class="btn btn-primary" type="submit">
+        <div className="col-12">
+          <button className="btn btn-primary" type="submit">
             Register
           </button>
         </div>
       </div>
       <br></br>
       <div>
-        <h2 class="text-center"> Icons! </h2>
-        <div class="mb-2 input-group">
-          {/* <label for="email" class="form-label">
+        <h2 className="text-center"> Icons! </h2>
+        <div className="mb-2 input-group">
+          {/* <label htmlFor="email" className="form-label">
             Email address
           </label> */}
-          <div class="icon">
+          <div className="icon">
             <svg
               width="1em"
               height="1em"
               viewBox="0 0 16 16"
-              class="bi bi-envelope"
+              className="bi bi-envelope"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -64,20 +64,20 @@ function App() {
           </div>
           <input
             type="email"
-            class="form-control"
+            className="form-control"
             id="email"
             placeholder="name@example.com"
           />
         </div>
         <div>
           <div>
-            <div class="input-group mb-2 ">
-              <div class="icon">
+            <div className="input-group mb-2 ">
+              <div className="icon">
                 <svg
                   width="1em"
                   height="1em"
                   viewBox="0 0 16 16"
-                  class="bi bi-person "
+                  className="bi bi-person "
                   fill="currentColor"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -89,24 +89,24 @@ function App() {
               </div>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="inlineFormInputGroupUsername2"
                 placeholder="Username"
               />
             </div>
           </div>
         </div>
-        <div class="mb-2 input-group">
-          {/* <label for="password" class="form-label">
+        <div className="mb-2 input-group">
+          {/* <label htmlFor="password" className="form-label">
             Password
           </label>
            */}
-          <div class="icon">
+          <div className="icon">
             <svg
               width="1em"
               height="em"
               viewBox="0 0 16 16"
-              class="bi bi-lock"
+              className="bi bi-lock"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -118,24 +118,24 @@ function App() {
           </div>
           <input
             type="password"
-            class="form-control"
+            className="form-control"
             id="password"
             placeholder="Password"
           />
         </div>
-        {/* <div class="mb-3">
-          <label for="cpassword" class="form-label">
+        {/* <div className="mb-3">
+          <label htmlFor="cpassword" className="form-label">
             Confirm Password
           </label>
           <input
             type="password"
-            class="form-control"
+            className="form-control"
             id="password"
             placeholder="Confirm Password"
           />
         </div> */}
-        <div class="col-12">
-          <button class="btn btn-primary" type="submit">
+        <div className="col-12">
+          <button className="btn btn-primary" type="submit">
             Register
           </button>
         </div>
